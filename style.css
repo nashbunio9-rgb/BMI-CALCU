@@ -1,0 +1,130 @@
+    .animated-gradient {
+    background: conic-gradient(from 45deg at center, #000000 0%, #f5f5f5 100%);
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s normal infinite;
+    }
+
+    @keyframes gradientAnimation {
+    0% {
+        background-position: 0% 10%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 10%;
+    }
+}
+
+    
+    
+    body {
+        font-family: Arial, sans-serif;
+        background: #020024;
+        background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 17%, rgba(187, 0, 255, 1) 100%);
+        padding: 200px;;
+    }
+    .container {
+        max-width: 400px;
+        margin: auto;
+        background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+        text-decoration: antiquewhite;  
+        font-family: Cursive;
+        color: aliceblue;
+    }
+    label {
+        display: block;
+        margin-top: 10px;
+        color: white;
+        font-family: Trebuchet ;
+        text-decoration: antiquewhite;
+    }
+    input[type="number"] {
+        font-family: cursive;
+        font-size: medium;
+        color: #bc44fd;
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        box-sizing: border-box;
+        background-color: white;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 15px;
+        background-color:  #5e3182;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background: #5e3182;
+background: radial-gradient(circle, rgba(94, 49, 130, 1) 10%, rgba(19, 4, 23, 1) 52%, rgba(167, 68, 185, 1) 100%, rgba(189, 77, 209, 1) 100%); 
+    }
+    .result-box {
+        margin-top: 20px;
+        padding: 15px;
+        background-color: lightgray;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .bmi-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+    .bmi-table th, .bmi-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+        color: white;
+        font-family: 'Times New Roman';  
+
+}
+    .bmi-table th {
+background: #5e3182;
+background: radial-gradient(circle, rgba(94, 49, 130, 1) 66%, rgba(19, 4, 23, 1) 99%, rgba(167, 68, 185, 1) 100%, rgba(189, 77, 209, 1) 100%);    }
+
+    h4{
+        margin-top: 50px;
+        text-align: center;
+        text-wrap: initial;
+        color: white;
+    }
+
+    input:hover{
+    background: #5e3182;
+    background: radial-gradient(circle, rgba(94, 49, 130, 1) 10%, rgba(19, 4, 23, 1) 52%, rgba(167, 68, 185, 1) 100%, rgba(189, 77, 209, 1) 100%)   ;  
+    }
+
+    .bmi-table:hover{
+    background: #5e3182;
+    background: radial-gradient(circle, rgba(94, 49, 130, 1) 10%, rgba(19, 4, 23, 1) 52%, rgba(167, 68, 185, 1) 100%, rgba(189, 77, 209, 1) 100%);
+    }
+
+    .container:hover{
+        
+    background: radial-gradient(ellipse at top, #09010e 0%, #5c0585 50%, #bc44fd 100%);
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s normal infinite;
+    }
+
+    @keyframes gradientAnimation {
+    0% {
+        background-position: 0% 10%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 10%;
+    }
+    }
